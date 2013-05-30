@@ -39,5 +39,5 @@ log_info = {
 delete_temp = True
 
 
-years = range(1941,1951)
+years = range(1951,1961)
 verbose = False

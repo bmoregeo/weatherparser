@@ -27,3 +27,24 @@
 2013-05-27 20:33:56,452 INFO 	Downloading file for 1946
 2013-05-27 20:34:14,221 INFO 	Downloading file for 1947
 2013-05-27 20:34:29,889 INFO 	Downloading file for 1948
+2013-05-27 20:41:15,135 INFO 	Downloading file for 1949
+2013-05-27 20:58:12,176 INFO 	Downloading file for 1950
+2013-05-27 21:02:57,209 INFO 	Extracting file for 1946
+2013-05-27 21:02:57,871 INFO 	Extracting file for 1947
+2013-05-27 21:02:58,194 INFO 	Extracting file for 1948
+2013-05-27 21:02:59,077 INFO 	Extracting file for 1949
+2013-05-27 21:03:00,026 INFO 	Extracting file for 1950
+2013-05-27 21:03:00,754 INFO Parsing 1946
+2013-05-27 21:03:00,754 INFO Processing 653 stations
+2013-05-27 21:03:00,828 WARNING [Errno 17] File exists: '/Users/christopherfricke/Source/Weather/data/out/1946'
+2013-05-27 21:03:00,831 INFO Parsing 1947
+2013-05-27 21:03:00,831 INFO Processing 506 stations
+2013-05-27 21:03:56,344 INFO Parsing 1948
+2013-05-27 21:03:56,345 INFO Processing 1,248 stations
+2013-05-27 21:03:56,395 WARNING [Errno 17] File exists: '/Users/christopherfricke/Source/Weather/data/out/1948'
+2013-05-27 21:03:56,600 INFO Parsing 1949
+2013-05-27 21:03:56,600 INFO Processing 1,628 stations
+2013-05-27 21:29:26,195 INFO Parsing 1950
+2013-05-27 21:29:26,267 INFO Processing 1,679 stations
+2013-05-27 21:29:26,620 WARNING [Errno 17] File exists: '/Users/christopherfricke/Source/Weather/data/out/1950'
+2013-05-27 21:29:26,621 INFO Finished...
