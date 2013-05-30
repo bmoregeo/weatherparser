@@ -10,13 +10,14 @@ either MongoDB, individual csvs or individual json files.
 ```python
 file_dir = The location to download / unzip GSOD files into
 out_dir =  The output location for all JSON or CSV files
+
+formats = {
+'json': False,   - True to output to JSON, or False to not
+'csv': False,    - True to output to JSON, or False to not
+'print': False,  - True to output to print to console, or False to not
+'mongo': True    - True to load into Mongo, or False to not
+}
 ```
-    formats = {
-           'json': False,   - True to output to JSON, or False to not
-           'csv': False,    - True to output to JSON, or False to not
-           'print': False,  - True to output to print to console, or False to not
-           'mongo': True    - True to load into Mongo, or False to not
-       }
     mp = {
            'do_multiprocessing':True,   - True to use multiprocessing for parsing the weather files, or false to use a single process
            'pools':8                    - If multiprocessing is specified, this is the number of processes used
