@@ -7,7 +7,8 @@ either MongoDB, individual csvs or individual json files.
 ##Configuration
 1. Ensure you have a Mongo instance running on your network
 2. Edit the settings.py file to point at local directories, local database and other configuration settings.
-    ```file_dir = The location to download / unzip GSOD files into
+    ```python
+    file_dir = The location to download / unzip GSOD files into
     out_dir =  The output location for all JSON or CSV files
     formats = {
            'json': False,   # True to output to JSON, or False to not
