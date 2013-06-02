@@ -28,7 +28,13 @@ if __name__ == '__main__':
 
     for years in year_groups:
         u.make_message('Starting...')
-        whole_years = u.download(years)
-        unzipped_years = u.expand(whole_years)
+
+        if settings.do_download:
+            whole_years = u.download(years)
+            unzipped_years = u.expand(whole_years)
+        else:
+
+            unzipped_years = [join(settings.file_dir, str(year)) for year in years]
+
         u.parse_years(unzipped_years)
         u.make_message('Finished...')

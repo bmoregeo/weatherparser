@@ -41,3 +41,4 @@ delete_temp = True
 
 years = range(1951,1961)
 verbose = False
+do_download = False

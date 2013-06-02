@@ -133,19 +133,6 @@ def download(years):
                     transbytes += len(buf)
                     if estsize:
                         update_progress(float(transbytes) / float(estsize))
-                    """
-                    if estsize:
-                        make_message("\t\tReceived %d of %d bytes (%.1f%%)\r" % (float(transbytes) / 1024,
-                                                                                   float(estsize) / 1024,
-                                                                                   100.0 * float(
-                                                                                       transbytes) / float(
-                                                                                       estsize))
-                            , 1)
-                    else:
-                        make_message("bytes\r")
-                    """
-
-
 
             # If file is blank, re download
             if getsize(fileDownloaded) < 2:

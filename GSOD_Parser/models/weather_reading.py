@@ -12,8 +12,7 @@ class weatherReading(object):
         :type row: list
         :return:
         """
-        station = fields.CharField(6, 'station')
-        wban = fields.CharField(6, 'wban')
+        stationid = fields.CharField(12, 'station')
         date = fields.DateField(10, 'date', '%Y%m%d')
         temperature = fields.FloatField(8, 'avg_temperature', 9999.9)
         temp_count = fields.IntField(3, 'temp_count')
@@ -45,8 +44,7 @@ class weatherReading(object):
         tornado = fields.IntField(1, 'tornado')
 
         self.field_list = (
-            station,
-            wban,
+            stationid,
             date,
             temperature,
             temp_count,
